@@ -11,7 +11,7 @@ function Home(props) {
 
         //turn response into JavaScript object
 
-        const data = await response.jason();
+        const data = await response.json();
 
         //set the 'home' state to the data 
         setHome(data);
@@ -25,8 +25,8 @@ function Home(props) {
                 <h1>{home.heading}</h1>
                 <img src={home.headshot}></img>
                 <p>{home.para}</p>
-                <p>{home.skillName}</p>
-                <p>{home.skillDescription}</p>
+                <p>{home.skill}</p>
+                <p>{home.description}</p>
 
             </div>
         ));
