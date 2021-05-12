@@ -23,7 +23,7 @@ function App() {
       <Header />
       <Switch>
         <Route exact path="/">
-          <Home />
+          <Home URL={URL}/>
         </Route>
         <Route path="/projects">
           <Projects URL={URL} />

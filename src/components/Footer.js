@@ -1,5 +1,5 @@
 function Footer(props) {
-    return <h1>Footer</h1>;
+    return <p>Copyright &copy; Portfolio Humaira Zafar 2021</p>;
   }
   
   export default Footer;
